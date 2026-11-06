@@ -1,5 +1,19 @@
-.vscode
-.DS_Store
-.class
-
+# Bytecode and build directories
+*.class
 bin/
+build/
+target/
+*.jar
+!junit-*.jar
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS metadata
+.DS_Store
+Thumbs.db
